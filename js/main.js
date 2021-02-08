@@ -6,28 +6,48 @@ window.addEventListener("scroll", function () {
   document.getElementById("progressBar").style.height = scrolled + "%";
 });
 
+// Animations
+gsap.from(".logo", {
+  opacity: 0,
+  y: 10,
+  duration: 1,
+  delay: 3.6,
+  ease: "power4",
+});
 
+gsap.from(".store", {
+  opacity: 0,
+  y: 10,
+  duration: 1,
+  delay: 3.8,
+  ease: "power4",
+});
 
-// let btn = document.getElementById("lol");
-// btn.addEventListener("click", function () {
-//   if (this.style.background == "black") {
-//     this.style.background = "white";
-//     this.style.color = "black";
-//   } else {
-//     this.style.background = "black";
-//     this.style.color = "white";
-//   }
-// });
+gsap.from(".socials li", {
+  opacity: 0,
+  x: 10,
+  duration: 1.5,
+  delay: 4,
+  stagger: 0.1,
+  ease: "power4",
+});
 
-// let btnbis = document.getElementById("lolbis");
-// let body = document.getElementById("body");
-// btnbis.addEventListener("click", function () {
-//   body.classList.toggle("bg");
-// });
+gsap.from("h1 span", {
+  opacity: 0,
+  y: 20,
+  skewY: 1,
+  duration: 1.5,
+  delay: 4.4,
+  stagger: 0.1,
+  ease: "power4",
+});
 
-// function myFunction() {
-//     document.getElementById("demo").style.background = "firebrick";
-//     document.getElementById("demo").style.color = "white";
-// }
-
-// <button onclick="window.scroll({top:50 * window.innerHeight/100, behavior:'smooth'});">scrollade</button>
+gsap.from(".intro figure", {
+  opacity: 0,
+  y: 20,
+  skewY: 5,
+  rotate: 1,
+  duration: 1.5,
+  delay: 4.6,
+  ease: "power4",
+});

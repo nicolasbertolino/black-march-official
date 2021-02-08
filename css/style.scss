@@ -132,32 +132,28 @@ img {
     opacity: 0;
     pointer-events: none;
 		user-select: none;
-    transform: translateY(0);
     animation: logo-opacity 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
   }
 }
 @keyframes logo-opacity {
   0% {
-    opacity: 0;
     transform: translateY(1rem);
+    opacity: 0;
   }
-  30% {
-    opacity: 1;
+  40% {
     transform: translateY(0);
-  }
-  70% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes slide-out {
   from {
-    height: 100vh;
+    transform: translateY(0);
   }
   to {
-    height: 0%;
+    transform: translateY(-100%);
   }
 }
 
@@ -840,9 +836,9 @@ footer {
   figure {
     display: flex;
     justify-content: center;
-    cursor: pointer;
     img {
       width: calc(200px + 10vw);
+      cursor: pointer;
     }
   }
   @media (max-width: 639px) {
