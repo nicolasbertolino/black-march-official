@@ -47,7 +47,7 @@ gsap.from(".intro figure", {
   y: 20,
   skewY: 5,
   rotate: 1,
-  duration: 1.5,
+  duration: 1,
   delay: 4.6,
   ease: "power4",
 });
