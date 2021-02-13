@@ -148,11 +148,11 @@ img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-animation: logo-opacity 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
-          animation: logo-opacity 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  -webkit-animation: logo-anim 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+          animation: logo-anim 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
 }
 
-@-webkit-keyframes logo-opacity {
+@-webkit-keyframes logo-anim {
   0% {
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
@@ -168,7 +168,7 @@ img {
   }
 }
 
-@keyframes logo-opacity {
+@keyframes logo-anim {
   0% {
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);

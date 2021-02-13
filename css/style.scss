@@ -71,11 +71,9 @@ ul {
 }
 
 h1 {
-  font: {
-    family: var(--font-serif);
-    size: calc(3em + 2vw);
-    weight: 500;
-  }
+  font-family: var(--font-serif);
+  font-size: calc(3em + 2vw);
+  font-weight: 500;
   line-height: 1.5;
   margin: 0 auto;
   display: flex;
@@ -89,19 +87,15 @@ h1 {
 }
 
 h2 {
-  font: {
-    family: var(--font-serif);
-    size: calc(2.2em + 1.5vw);
-    weight: 500;
-  }
+  font-family: var(--font-serif);
+  font-size: calc(2.2em + 1.5vw);
+  font-weight: 500;
 }
 
 h3 {
-  font: {
-    family: var(--font-serif);
-    size: 2rem;
-    weight: 500;
-  }
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -132,10 +126,10 @@ img {
     opacity: 0;
     pointer-events: none;
 		user-select: none;
-    animation: logo-opacity 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+    animation: logo-anim 3.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
   }
 }
-@keyframes logo-opacity {
+@keyframes logo-anim {
   0% {
     transform: translateY(1rem);
     opacity: 0;
@@ -186,12 +180,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: {
-    image: url(../images/bg-about.jpg);
-    size: cover;
-    position: center;
-    repeat: no-repeat;
-  }
+  background-image: url(../images/bg-about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   .logo {
     position: absolute;
     top: 2rem;
@@ -343,11 +335,9 @@ main {
   }
   div {
     span {
-      font: {
-        family: var(--font-serif-light);
-        size: 10em;
-        weight: 200;
-      }
+      font-family: var(--font-serif-light);
+      font-size: 10em;
+      font-weight: 200;
       float: left;
       padding-right: 1rem;
       margin-bottom: -4rem;
@@ -484,10 +474,8 @@ main {
             &:not(:first-child) {
               margin-left: 1rem;
             }
-            font: {
-              family: var(--font-serif-light);
-              weight: 200;
-            }
+            font-family: var(--font-serif-light);
+            font-weight: 200;
             &::before {
               content: "";
               position: absolute;
@@ -732,10 +720,8 @@ main {
       right: 1rem;
       width: 30px;
       height: 100%;
-      background: {
-        image: url(../images/crow.svg);
-        repeat: no-repeat;
-      }
+      background-image: url(../images/crow.svg);
+      background-repeat: no-repeat;
       @media (max-width: 420px) {
         right: 0;
       }
