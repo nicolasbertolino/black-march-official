@@ -4,7 +4,7 @@
 
 # Black March
 
-I made this landing page for my buddies at Black March, a black metal music band based in Toulouse. The page is pretty straightforward and took me a week-end to build.
+I made this landing page for my buddies at Black March, a black metal music band based in Toulouse.
 
 ## Tech Stack
 
