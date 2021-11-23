@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo-github.png">
+  <img src="images/logo-github.jpg">
 </p>
 
 # Black March
